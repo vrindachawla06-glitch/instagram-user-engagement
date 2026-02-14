@@ -177,4 +177,6 @@ st.write("Correlation:", round(correlation, 2))
 st.subheader("🚀 High Potential Posts (High Engagement Rate)")
 
 boost_posts = df.sort_values("engagement_rate", ascending=False).head(10)
-st.dataframe(boost_posts[["post]()]()_
+st.dataframe(boost_posts[["post_id", "content_type", "engagement_rate"]])
+
+
